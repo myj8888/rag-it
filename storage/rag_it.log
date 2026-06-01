@@ -1,0 +1,76 @@
+2026-05-10 17:56:04 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\e0b80b004e4d35dca696a8c19013f06e3033f818633e6bc2404600a9fdfcd1ef.jpg
+2026-05-10 17:56:09 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\b8ea1a69613901b7d3b8b416b8d93cb6b20b87e24232c40ebd7a61262c53b7fd.jpg
+2026-05-10 17:56:13 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\5743f4022104fe8c10bdb1c03557b002b55c9dd4a6bef36f47403dd3d42ad8c1.jpg
+2026-05-10 17:56:16 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\89385457eac2c50502b9edc0b374f472190a2c0de96f0ff2f079bf0818e93391.jpg
+2026-05-10 17:56:21 INFO [rag_it.pdf_links] Extracting PDF links from data_mineru_parse\MinerU_README_demo_origin.pdf
+2026-05-10 17:56:21 INFO [rag_it.pdf_links] Extracted 10 PDF links
+2026-05-10 17:56:21 INFO [rag_it.ingest] Loaded 40 blocks from MinerU output and enrichments
+2026-05-10 17:56:22 INFO [httpx] HTTP Request: GET http://localhost:6333/collections/rag_chunks/exists "HTTP/1.1 200 OK"
+2026-05-10 17:56:22 INFO [httpx] HTTP Request: DELETE http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 17:56:22 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 17:56:23 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 17:57:07 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 17:57:44 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 17:57:44 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/count "HTTP/1.1 200 OK"
+2026-05-10 17:57:57 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 17:57:57 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 17:58:01 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 17:58:01 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 17:58:33 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\e0b80b004e4d35dca696a8c19013f06e3033f818633e6bc2404600a9fdfcd1ef.jpg
+2026-05-10 17:58:38 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\b8ea1a69613901b7d3b8b416b8d93cb6b20b87e24232c40ebd7a61262c53b7fd.jpg
+2026-05-10 17:58:43 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\5743f4022104fe8c10bdb1c03557b002b55c9dd4a6bef36f47403dd3d42ad8c1.jpg
+2026-05-10 17:58:47 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\89385457eac2c50502b9edc0b374f472190a2c0de96f0ff2f079bf0818e93391.jpg
+2026-05-10 17:58:52 INFO [rag_it.pdf_links] Extracting PDF links from data_mineru_parse\MinerU_README_demo_origin.pdf
+2026-05-10 17:58:52 INFO [rag_it.pdf_links] Extracted 3 PDF links
+2026-05-10 17:58:52 INFO [rag_it.ingest] Loaded 33 blocks from MinerU output and enrichments
+2026-05-10 17:58:53 INFO [httpx] HTTP Request: GET http://localhost:6333/collections/rag_chunks/exists "HTTP/1.1 200 OK"
+2026-05-10 17:58:53 INFO [httpx] HTTP Request: DELETE http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 17:58:53 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 17:58:54 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 17:59:34 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 17:59:55 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 17:59:55 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/count "HTTP/1.1 200 OK"
+2026-05-10 18:00:06 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:00:06 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:00:09 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 18:00:10 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 18:04:27 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\e0b80b004e4d35dca696a8c19013f06e3033f818633e6bc2404600a9fdfcd1ef.jpg
+2026-05-10 18:04:32 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\b8ea1a69613901b7d3b8b416b8d93cb6b20b87e24232c40ebd7a61262c53b7fd.jpg
+2026-05-10 18:04:36 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\5743f4022104fe8c10bdb1c03557b002b55c9dd4a6bef36f47403dd3d42ad8c1.jpg
+2026-05-10 18:04:40 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\89385457eac2c50502b9edc0b374f472190a2c0de96f0ff2f079bf0818e93391.jpg
+2026-05-10 18:04:45 INFO [rag_it.pdf_links] Extracting PDF links from data_mineru_parse\MinerU_README_demo_origin.pdf
+2026-05-10 18:04:45 INFO [rag_it.pdf_links] Extracted 3 PDF links
+2026-05-10 18:04:45 INFO [rag_it.ingest] Loaded 33 blocks from MinerU output and enrichments
+2026-05-10 18:04:47 INFO [httpx] HTTP Request: GET http://localhost:6333/collections/rag_chunks/exists "HTTP/1.1 200 OK"
+2026-05-10 18:04:47 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:04:47 INFO [httpx] HTTP Request: DELETE http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 18:04:47 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-10 18:05:27 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 18:05:48 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-10 18:05:48 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/count "HTTP/1.1 200 OK"
+2026-05-10 18:06:26 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:06:28 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 18:08:03 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:08:04 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-10 18:08:06 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-10 18:08:06 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-11 14:03:20 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\e0b80b004e4d35dca696a8c19013f06e3033f818633e6bc2404600a9fdfcd1ef.jpg
+2026-05-11 14:03:26 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\b8ea1a69613901b7d3b8b416b8d93cb6b20b87e24232c40ebd7a61262c53b7fd.jpg
+2026-05-11 14:03:29 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\5743f4022104fe8c10bdb1c03557b002b55c9dd4a6bef36f47403dd3d42ad8c1.jpg
+2026-05-11 14:03:33 INFO [rag_it.image_ocr] Running OCR for image: data_mineru_parse\images\89385457eac2c50502b9edc0b374f472190a2c0de96f0ff2f079bf0818e93391.jpg
+2026-05-11 14:03:38 INFO [rag_it.pdf_links] Extracting PDF links from data_mineru_parse\MinerU_README_demo_origin.pdf
+2026-05-11 14:03:38 INFO [rag_it.pdf_links] Extracted 3 PDF links
+2026-05-11 14:03:38 INFO [rag_it.ingest] Loaded 33 blocks from MinerU output and enrichments
+2026-05-11 14:03:39 INFO [httpx] HTTP Request: GET http://localhost:6333/collections/rag_chunks/exists "HTTP/1.1 200 OK"
+2026-05-11 14:03:39 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-11 14:03:39 INFO [httpx] HTTP Request: DELETE http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-11 14:03:40 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks "HTTP/1.1 200 OK"
+2026-05-11 14:04:27 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-11 14:04:48 INFO [httpx] HTTP Request: PUT http://localhost:6333/collections/rag_chunks/points?wait=true "HTTP/1.1 200 OK"
+2026-05-11 14:04:48 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/count "HTTP/1.1 200 OK"
+2026-05-11 14:05:24 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-05-11 14:05:26 INFO [httpx] HTTP Request: POST http://localhost:6333/collections/rag_chunks/points/query "HTTP/1.1 200 OK"
+2026-05-28 19:59:58 INFO [rag_it.pdf_links] No PDF found for link extraction in data_mineru_parse
+2026-05-28 19:59:58 INFO [rag_it.ingest] Loaded 881 blocks from MinerU output and enrichments
+2026-05-28 20:00:02 INFO [httpx] HTTP Request: GET http://localhost:6333/collections/rag_chunks/exists "HTTP/1.1 502 Bad Gateway"
+2026-05-28 20:00:02 INFO [httpx] HTTP Request: GET http://localhost:6333 "HTTP/1.1 502 Bad Gateway"

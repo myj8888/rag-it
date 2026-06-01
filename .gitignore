@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
+rag_storage/
+pdf_parse/
+uv.lock
